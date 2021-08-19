@@ -36,23 +36,23 @@ function calcTotal() {
             body.totalKj = body.baseKj * .95;
             console.log("base: " + body.baseKj + " | total: " + body.totalKj)
             break;
-        case 2:
+        case "2":
             body.totalKcal = body.baseKcal * 1.2;
             body.totalKj = body.baseKj * 1.2;
             break;
-        case 3:
+        case "3":
             body.totalKcal = body.baseKcal * 1.5;
             body.totalKj = body.baseKj * 1.5;
             break;
-        case 4:
+        case "4":
             body.totalKcal = body.baseKcal * 1.7;
             body.totalKj = body.baseKj * 1.7;
             break;
-        case 5:
+        case "5":
             body.totalKcal = body.baseKcal * 1.9;
             body.totalKj = body.baseKj * 1.9;
             break;
-        case 6:
+        case "6":
             body.totalKcal = body.baseKcal * 2.2;
             body.totalKj = body.baseKj * 2.2;
             break;
