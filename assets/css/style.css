@@ -54,3 +54,7 @@ h1 {
 #result table td {
     background-color: #fff;
 }
+
+#result p{
+    text-align:justify;
+}
