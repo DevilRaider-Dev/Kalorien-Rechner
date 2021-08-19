@@ -34,7 +34,6 @@ function calcTotal() {
         case "1":
             body.totalKcal = body.baseKcal * .95;
             body.totalKj = body.baseKj * .95;
-            console.log("base: " + body.baseKj + " | total: " + body.totalKj)
             break;
         case "2":
             body.totalKcal = body.baseKcal * 1.2;
