@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.container {
+    background-color: lightgrey;
+    width: 30vw;
+    margin: 1vh auto;
+    padding: 1% 2%;
+    border-radius: 15px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container div {
+    padding-bottom: 5%;
+}
+
+.container div label {
+    padding-bottom: 5%;
+}
+
+#size, #age, #weight {
+    width: 97%;
+    margin-top: 2%;
+}
+
+#activity {
+    width: 100%;
+}
+
+#calcRate{
+    width: 40%;
+    margin-left: 60%;
+}
+
+#result table {
+    width: 100%;
+    background-color: rgb(85, 145, 90);
+}
+
+#result table, #result table th, #result table td {
+    border: 1px solid black;
+}
+
+#result table th {
+    color: white;
+    background-color: rgb(76, 73, 255);
+}
+
+#result table td {
+    background-color: #fff;
+}
